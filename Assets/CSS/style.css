@@ -1,0 +1,17 @@
+body {
+  background-image: url(../Images/bd9d6b4d7c297b5a6cfcbc2785d74e96.jpg);
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.image-container {
+  text-align: center;
+  font-size: small;
+  position: relative;
+}
