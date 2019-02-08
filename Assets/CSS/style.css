@@ -10,8 +10,54 @@ h2 {
   text-align: center;
 }
 
-.image-container {
+.Characters1,
+.Characters2,
+.Characters3 {
   text-align: center;
   font-size: small;
-  position: relative;
+  padding: 0px;
+  overflow: hidden;
+  height: 120px;
+  border-radius: 50%;
+}
+
+h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 5px;
+}
+
+p {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.defender-area {
+  top: 100px;
+  text-align: center;
+  color: red;
+}
+
+#images {
+  bottom: 100px;
+}
+
+#characternames {
+  top: 50px;
+}
+
+#healthpoints {
+  padding: 0px;
+  margin: 0px;
+  bottom: -30px;
+  color: #66ff66;
+}
+
+.attackbtn {
+  text-align: center;
 }

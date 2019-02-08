@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker"
+      rel="stylesheet"
+    />
+    <!---CSS-->
     <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css" />
+    <!---Bootstrap link-->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
     />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -14,56 +21,224 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-lg-12" style="color: white;">
+        <div
+          class="col-lg-12"
+          style="color: yellow;font-family: 'Permanent Marker', cursive; text-decoration: underline;"
+        >
           <h1>Star Wars RPG</h1>
         </div>
       </div>
 
+      <!---choose your character-->
       <div class="row">
-        <div class="col-lg-12" style="color: white;">
+        <div
+          class="col-lg-12"
+          style="color: yellow; font-family: 'Permanent Marker', cursive; text-decoration: underline;"
+        >
           <h2>Choose your Character</h2>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid">
-      <div class="row image-container">
-        <div
-          class="col-md-3"
-          style="border:solid; border-color: white; color: white"
-        >
-          <img src="Assets/Images/obi1.jpg" width="50%" />
-          <h3>Obi Wan Kenobi</h3>
-          <p>120</p>
+    <div class="container" style="color: white;">
+      <div class="row">
+        <div class="col-md-3 Characters1 G1">
+          <img id="images" src="Assets/Images/obi1.jpg" width="50%" />
+          <h3 id="characternames">Obi Wan</h3>
+          <p id="healthpoints">120</p>
         </div>
 
-        <div
-          class="col-md-3"
-          style="border:solid; border-color: white; color: white"
-        >
-          <img src="Assets/Images/DarthMaul.png" width="50%" />
-          <h3>Darth Maul</h3>
-          <p>110</p>
+        <div class="col-md-3 Characters1 G2">
+          <img id="images" src="Assets/Images/DarthMaul.png" width="50%" />
+          <h3 id="characternames">Darth Maul</h3>
+          <p id="healthpoints">110</p>
         </div>
 
-        <div
-          class="col-md-3"
-          style="border:solid; border-color: white; color: white"
-        >
-          <img src="Assets/Images/kyloren.jpg" width="50%" />
-          <h3>Kylo Ren</h3>
-          <p>150</p>
+        <div class="col-md-3 Characters1 G3">
+          <img id="images" src="Assets/Images/kyloren.jpg" width="50%" />
+          <h3 id="characternames">Kylo Ren</h3>
+          <p id="healthpoints">150</p>
         </div>
 
-        <div
-          class="col-md-3"
-          style="border:solid; border-color: white; color: white; position: relative;"
-        >
-          <img src="Assets/Images/DV.jpg" width="50%" />
-          <h3>Darth Vader</h3>
-          <p>200</p>
+        <div class="col-md-3 Characters1 G4">
+          <img id="images" src="Assets/Images/DV.jpg" width="50%" />
+          <h3 id="characternames">Darth Vader</h3>
+          <p id="healthpoints">200</p>
         </div>
       </div>
     </div>
+
+    <!---Defender-->
+
+    <div class="container">
+      <div class="row">
+        <div
+          class="col-lg-12"
+          style="color: yellow; font-family: 'Permanent Marker', cursive; text-decoration: underline;"
+        >
+          <h1>Defender Area</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="color: white;">
+      <div class="row">
+        <div class="col-md-3 Characters2 D1">
+          <img id="images" src="Assets/Images/obi1.jpg" width="50%" />
+          <h3 id="characternames">Obi Wan</h3>
+          <p id="healthpoints">120</p>
+        </div>
+
+        <div class="col-md-3 Characters2 D2">
+          <img id="images" src="Assets/Images/DarthMaul.png" width="50%" />
+          <h3 id="characternames">Darth Maul</h3>
+          <p id="healthpoints">110</p>
+        </div>
+
+        <div class="col-md-3 Characters2 D3">
+          <img id="images" src="Assets/Images/kyloren.jpg" width="50%" />
+          <h3 id="characternames">Kylo Ren</h3>
+          <p id="healthpoints">150</p>
+        </div>
+
+        <div class="col-md-3 Characters2 D4">
+          <img id="images" src="Assets/Images/DV.jpg" width="50%" />
+          <h3 id="characternames">Darth Vader</h3>
+          <p id="healthpoints">200</p>
+        </div>
+      </div>
+    </div>
+
+    <!---Fight Arena-->
+    <div class="container">
+      <div class="row">
+        <div
+          class="col-lg-12"
+          style="color: yellow; font-family: 'Permanent Marker', cursive; text-decoration: underline;"
+        >
+          <h1>Fight Arena</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="color: white;">
+      <div class="row">
+        <div class="col-md-3 Characters3 E1">
+          <img id="images" src="Assets/Images/obi1.jpg" width="50%" />
+          <h3 id="characternames">Obi Wan</h3>
+          <p id="healthpoints">120</p>
+        </div>
+
+        <div class="col-md-3 Characters3 E2">
+          <img id="images" src="Assets/Images/DarthMaul.png" width="50%" />
+          <h3 id="characternames">Darth Maul</h3>
+          <p id="healthpoints">110</p>
+        </div>
+
+        <div class="col-md-3 Characters3 E3">
+          <img id="images" src="Assets/Images/kyloren.jpg" width="50%" />
+          <h3 id="characternames">Kylo Ren</h3>
+          <p id="healthpoints">150</p>
+        </div>
+
+        <div class="col-md-3 Characters3 E4">
+          <img id="images" src="Assets/Images/DV.jpg" width="50%" />
+          <h3 id="characternames">Darth Vader</h3>
+          <p id="healthpoints">200</p>
+        </div>
+      </div>
+    </div>
+    <div class="container attackbtn">
+      <div class="row">
+        <div class="col-lg-12">
+          <button type="button" class="btn btn-danger">Attack</button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <!---hiding-->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        //Hide at the beginning
+        $(".Characters2").hide();
+        $(".Characters3").hide();
+
+        var characterSelected = false;
+        var opponentSelected = false;
+        //when you click obi won show other guys then hide on click
+        $(".G1").on("click", function() {
+          if (characterSelected === false) {
+            $(".Characters2").show();
+            $(".Characters3").hide();
+            $(".G2").hide();
+            $(".G3").hide();
+            $(".G4").hide();
+            $(".D1").hide();
+            characterSelected = true;
+          }
+        });
+
+        //when you click Darth Maul show other guys then hide on click
+        $(".G2").on("click", function() {
+          if (characterSelected === false) {
+            $(".Characters2").show();
+            $(".Characters3").hide();
+            $(".G1").hide();
+            $(".G3").hide();
+            $(".G4").hide();
+            $(".D2").hide();
+            characterSelected = true;
+          }
+        });
+        //when you click Kylo Ren show other guys then hide on click
+        $(".G3").on("click", function() {
+          if (characterSelected === false) {
+            $(".Characters2").show();
+            $(".Characters3").hide();
+            $(".G1").hide();
+            $(".G2").hide();
+            $(".G4").hide();
+            $(".D3").hide();
+            characterSelected = true;
+          }
+        });
+        //when you click DV show other guys then hide on click
+        $(".G4").on("click", function() {
+          if (characterSelected === false) {
+            $(".Characters2").show();
+            $(".Characters3").hide();
+            $(".G1").hide();
+            $(".G2").hide();
+            $(".G3").hide();
+            $(".D4").hide();
+            characterSelected = true;
+          }
+        });
+
+        //Moving to fighting area
+        $(".D1").on("click", function() {
+          $(".E1").show();
+          $(".D1").hide();
+        });
+        $(".D2").on("click", function() {
+          $(".E2").show();
+          $(".D2").hide();
+        });
+
+        $(".D3").on("click", function() {
+          $(".E3").show();
+          $(".D3").hide();
+        });
+        $(".D4").on("click", function() {
+          $(".E4").show();
+          $(".D4").hide();
+        });
+      });
+    </script>
   </body>
 </html>
