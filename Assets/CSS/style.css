@@ -51,13 +51,13 @@ p {
   top: 50px;
 }
 
-#healthpoints {
+#healthPoints {
   padding: 0px;
   margin: 0px;
   bottom: -30px;
   color: #66ff66;
 }
 
-.attackbtn {
+#attackbtn {
   text-align: center;
 }
