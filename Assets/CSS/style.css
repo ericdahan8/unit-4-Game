@@ -51,11 +51,11 @@ p {
   top: 50px;
 }
 
-#healthPoints {
+#healthpoints {
   padding: 0px;
   margin: 0px;
   bottom: -30px;
-  color: #66ff66;
+  color: green;
 }
 
 #attackbtn {

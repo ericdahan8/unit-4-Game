@@ -41,30 +41,30 @@
       </div>
     </div>
 
-    <div class="container" style="color: white;">
+    <div class="container" style="color: yellow;">
       <div class="row">
         <div class="col-md-3 Characters1 G1">
           <img id="images" src="Assets/Images/obi1.jpg" width="50%" />
           <h3 id="characternames">Obi Wan</h3>
-          <p id="healthPointsobi">120</p>
+          <p id="healthPointsobi" style="color: green;">HP 120</p>
         </div>
 
         <div class="col-md-3 Characters1 G2">
           <img id="images" src="Assets/Images/DarthMaul.png" width="50%" />
           <h3 id="characternames">Darth Maul</h3>
-          <p id="healthPointsmaul">110</p>
+          <p id="healthPointsmaul" style="color: green;">HP 110</p>
         </div>
 
         <div class="col-md-3 Characters1 G3">
           <img id="images" src="Assets/Images/kyloren.jpg" width="50%" />
           <h3 id="characternames">Kylo Ren</h3>
-          <p id="healthPointskylo">150</p>
+          <p id="healthPointskylo" style="color: green;">HP 150</p>
         </div>
 
         <div class="col-md-3 Characters1 G4">
           <img id="images" src="Assets/Images/DV.jpg" width="50%" />
           <h3 id="characternames">Darth Vader</h3>
-          <p id="healthPointsdv">200</p>
+          <p id="healthPointsdv" style="color: green;">HP 200</p>
         </div>
       </div>
     </div>
@@ -82,30 +82,30 @@
       </div>
     </div>
 
-    <div class="container" style="color: white;">
+    <div class="container" style="color: yellow;">
       <div class="row">
         <div class="col-md-3 Characters2 D1">
           <img id="images" src="Assets/Images/obi1.jpg" width="50%" />
           <h3 id="characternames">Obi Wan</h3>
-          <p id="healthPoints">120</p>
+          <p id="healthPoints" style="color: green;">HP 120</p>
         </div>
 
         <div class="col-md-3 Characters2 D2">
           <img id="images" src="Assets/Images/DarthMaul.png" width="50%" />
           <h3 id="characternames">Darth Maul</h3>
-          <p id="healthPoints">110</p>
+          <p id="healthPoints" style="color: green;">HP 110</p>
         </div>
 
         <div class="col-md-3 Characters2 D3">
           <img id="images" src="Assets/Images/kyloren.jpg" width="50%" />
           <h3 id="characternames">Kylo Ren</h3>
-          <p id="healthPoints">150</p>
+          <p id="healthPoints" style="color: green;">HP 150</p>
         </div>
 
         <div class="col-md-3 Characters2 D4">
           <img id="images" src="Assets/Images/DV.jpg" width="50%" />
           <h3 id="characternames">Darth Vader</h3>
-          <p id="healthPoints">200</p>
+          <p id="healthPoints" style="color: green;">HP 200</p>
         </div>
       </div>
     </div>
@@ -122,35 +122,37 @@
       </div>
     </div>
 
-    <div class="container" style="color: white;">
+    <div class="container" style="color: yellow;">
       <div class="row">
         <div class="col-md-3 Characters3 E1">
           <img id="images" src="Assets/Images/obi1.jpg" width="50%" />
           <h3 id="characternames">Obi Wan</h3>
-          <p id="healthPointsobi2">120</p>
+          <p id="healthPointsobi2" style="color: green;">HP 120</p>
         </div>
 
         <div class="col-md-3 Characters3 E2">
           <img id="images" src="Assets/Images/DarthMaul.png" width="50%" />
           <h3 id="characternames">Darth Maul</h3>
-          <p id="healthPointsmaul2">110</p>
+          <p id="healthPointsmaul2" style="color: green;">HP 110</p>
         </div>
 
         <div class="col-md-3 Characters3 E3">
           <img id="images" src="Assets/Images/kyloren.jpg" width="50%" />
           <h3 id="characternames">Kylo Ren</h3>
-          <p id="healthPointskylo2">150</p>
+          <p id="healthPointskylo2" style="color: green;">HP 150</p>
         </div>
 
         <div class="col-md-3 Characters3 E4">
           <img id="images" src="Assets/Images/DV.jpg" width="50%" />
           <h3 id="characternames">Darth Vader</h3>
-          <p id="healthPointsdv2">200</p>
+          <p id="healthPointsdv2" style="color: green;">HP 200</p>
         </div>
       </div>
     </div>
 
     <!----attack buttin-->
+
+    <br />
     <div class="container">
       <div class="row">
         <p2 id="p2" style="color: white; text-align: center;"></p2>
@@ -215,6 +217,7 @@
         var kylocounter = 50;
         var dvcounter = 70;
 
+        //RESET FUNCTION
         function reset() {
           $(".Characters2").hide();
           $(".Characters3").hide();
@@ -312,6 +315,7 @@
             characterSelected = true;
           }
         });
+
         //Moving to fighting area
         $(".D1").on("click", function() {
           obi2 = true;
@@ -341,6 +345,7 @@
           $(".D4").hide();
           opponentSelected = true;
         });
+
         //attacking sequence
         ////////////////////////////////////////////////////////////////////////////////////////
         //obi vs maul
