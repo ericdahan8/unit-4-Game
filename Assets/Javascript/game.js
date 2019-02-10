@@ -6,7 +6,6 @@ $(document).ready(function() {
   // Attack point system
   var characterSelected = false;
   var opponentSelected = false;
-  var oppDeafeated = 0;
 
   var obi1 = false;
   var maul1 = false;
@@ -78,7 +77,7 @@ $(document).ready(function() {
     $(".G3").show();
     $(".G4").show();
   }
-
+  ///////////////////////////////////////////////////////////////////////////////////////
   //when you click obi won show other guys then hide on click
   $(".G1").on("click", function() {
     if (characterSelected === false) {
@@ -131,7 +130,7 @@ $(document).ready(function() {
       characterSelected = true;
     }
   });
-
+  ////////////////////////////////////////////////////////////////////////////////////////
   //Moving to fighting area
   $(".D1").on("click", function() {
     obi2 = true;
@@ -282,7 +281,7 @@ $(document).ready(function() {
       }
     }
   });
-  //////////////////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////////////////////
   // kylo vs dv
   $("#attackbtn").on("click", function() {
     if (opponentSelected === true && characterSelected === true) {
@@ -342,7 +341,7 @@ $(document).ready(function() {
     }
   });
 
-  //////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////////////
   //dv vs obi
   $("#attackbtn").on("click", function() {
     if (opponentSelected === true && characterSelected === true) {
@@ -375,7 +374,7 @@ $(document).ready(function() {
         $("#healthPointsmaul2").text(maulhealth);
 
         if (maulhealth <= 0) {
-          alert("You win!");
+          alert("You Win!");
           reset();
         }
       }
@@ -395,7 +394,7 @@ $(document).ready(function() {
         $("#healthPointskylo2").text(kylohealth);
 
         if (kylohealth <= 0) {
-          alert("You win!");
+          alert("You Win!");
           reset();
         }
       }
